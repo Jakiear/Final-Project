@@ -18,7 +18,7 @@ header {visibility: visible;}
 st.markdown(hide_style, unsafe_allow_html=True) 
 
 # Title
-st.markdown("<h1 style='text-align: center;'>Prediksi Stunting Bayi Umur 0 - 60 Bulan</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Prediksi Stunting Bayi Sampai Umur 60 Bulan</h1>", unsafe_allow_html=True)
 
 #Elemen
 nama = st.text_input("Masukkan Nama",placeholder='Nama')
