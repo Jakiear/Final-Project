@@ -1,0 +1,7 @@
+pip
+pandas
+joblib
+python-time
+streamlit
+scikit-learn
+streamlit-modal
