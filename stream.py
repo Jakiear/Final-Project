@@ -6,7 +6,7 @@ import time
 
 # page title
 st.set_page_config(
-    page_title="Prediksi Stunting Bayi Umur 0-60 Bulan")
+    page_title="Prediksi Stunting Bayi Sampai Umur 60 Bulan")
 
 hide_style = """
 <style>
