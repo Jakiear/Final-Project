@@ -12,7 +12,7 @@ hide_style = """
 <style>
 #MainMenu {visibility: visible;}
 footer {visibility: hidden;}
-header {visibility: visible;}
+header {visibility: hidden;}
 </style>
 """
 st.markdown(hide_style, unsafe_allow_html=True) 
@@ -22,7 +22,7 @@ st.markdown("<h1 style='text-align: center;'>Prediksi Stunting Bayi Sampai Umur 
 
 #Elemen
 nama = st.text_input("Masukkan Nama",placeholder='Nama')
-umur = st.number_input("Masukkan Umur (bulan)",min_value=0, max_value=60)
+umur = st.number_input("Masukkan Umur (bulan)",min_value=None, max_value=60)
 jk = st.selectbox("Jenis Kelamin",('Laki-laki','Perempuan'))
 tb = st.number_input("Masukkan Tinggi Badan (cm)",max_value=130)
 
