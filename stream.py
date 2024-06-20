@@ -22,7 +22,7 @@ st.markdown("Prediksi Stunting Bayi Sampai Umur 60 Bulan", unsafe_allow_html=Tru
 
 #Elemen
 nama = st.text_input("Masukkan Nama",placeholder='Nama')
-umur = st.nuumber_input("Masukkan Umur (bulan)", max_value=60)
+umur = st.number_input("Masukkan Umur (bulan)", max_value=60)
 jk = st.selectbox("Jenis Kelamin",('Laki-laki','Perempuan'))
 tb = st.number_input("Masukkan Tinggi Badan (cm)",max_value=130)
 
