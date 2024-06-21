@@ -80,9 +80,9 @@ if sumbit == True:
                                  Sumber: Kementerian Kesehatan Republik Indonesia
                                  """)
                   elif prediksi [-1] == 2:
-                    time.sleep (1)
-                    st.success("Hasil Prediksi: "+nama+" Normal")
-                    st.write("""
+                      time.sleep (1)
+                      st.success("Hasil Prediksi: "+nama+" Normal")
+                      st.write("""
                                  Upaya yang bisa dilakukan untuk mencegah terjadinya stunting dan mempertahankan kondisi gizi bayi seperti: 
                                  1) Pemenuhan gizi ibu hamil terutama pemenuhan zat besi.
                                  2) Memberikan ASI eksklusif sampai 6 bulan dan setelah 6 bulan diberikan makanan pendamping ASI yang bernutri juga bergizi.
@@ -92,9 +92,9 @@ if sumbit == True:
                                  Sumber: Kementerian Kesehatan Republik Indonesia
                                  """)
                   elif prediksi [-1] == 3:
-                    time.sleep (1)
-                    st.success("Hasil Prediksi: "+nama+" Tinggi")
-                    st.write("""
+                      time.sleep (1)
+                      st.success("Hasil Prediksi: "+nama+" Tinggi")
+                      st.write("""
                                  Upaya yang bisa dilakukan untuk mencegah terjadinya stunting dan mempertahankan kondisi gizi bayi seperti: 
                                  1) Pemenuhan gizi ibu hamil terutama pemenuhan zat besi.
                                  2) Memberikan ASI eksklusif sampai 6 bulan dan setelah 6 bulan diberikan makanan pendamping ASI yang bernutri juga bergizi.
