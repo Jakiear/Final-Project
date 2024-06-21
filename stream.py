@@ -4,7 +4,6 @@ import joblib
 import pandas as pd
 import time
 
-[theme]
 widemode="on"
 
 # page title
