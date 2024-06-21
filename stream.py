@@ -71,7 +71,7 @@ if sumbit == True:
                         time.sleep(1)
                         st.warning("Hasil Prediksi: "+nama+" Terkena Stunting")
                         st.write("""
-                                 Upaya yang bisa dilakukan untuk mengatasi stunting parah seperti: 
+                                 Upaya yang bisa dilakukan untuk mengatasi stunting seperti: 
                                  1) Mulai berikan asupan makanan yang bernutrisi dan bergizi, seperti protein hewani pada mpasi.
                                  2) Memberikan suplemen tambahan terutama yang mengandung vitamin A, Zinc, zat besi, kalsium dan yodium.
                                  3) Menerapkan pola hidup bersih dengan menjaga sanitasi dan kebersihan lingkungan tempat tinggal.
@@ -83,7 +83,7 @@ if sumbit == True:
                         time.sleep (1)
                         st.success("Hasil Prediksi: "+nama+" Normal")
                         st.write("""
-                                 Upaya yang bisa dilakukan untuk mencegah terjadinya stunting seperti: 
+                                 Upaya yang bisa dilakukan untuk mencegah terjadinya stunting dan mempertahankan kondisi gizi bayi seperti: 
                                  1) Pemenuhan gizi ibu hamil terutama pemenuhan zat besi.
                                  2) Memberikan ASI eksklusif sampai 6 bulan dan setelah 6 bulan diberikan makanan pendamping ASI yang bernutri juga bergizi.
                                  3) Mendapatkan akses air bersih dan fasilitas sanitasi, serta menjaga lingkungan tetap bersih.
@@ -95,7 +95,7 @@ if sumbit == True:
                         time.sleep (1)
                         st.success("Hasil Prediksi: "+nama+" Tinggi")
                         st.write("""
-                                 Upaya yang bisa dilakukan untuk mencegah terjadinya stunting seperti: 
+                                 Upaya yang bisa dilakukan untuk mencegah terjadinya stunting dan mempertahankan kondisi gizi bayi seperti: 
                                  1) Pemenuhan gizi ibu hamil terutama pemenuhan zat besi.
                                  2) Memberikan ASI eksklusif sampai 6 bulan dan setelah 6 bulan diberikan makanan pendamping ASI yang bernutri juga bergizi.
                                  3) Mendapatkan akses air bersih dan fasilitas sanitasi, serta menjaga lingkungan tetap bersih.
