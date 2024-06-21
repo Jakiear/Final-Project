@@ -4,6 +4,9 @@ import joblib
 import pandas as pd
 import time
 
+[theme]
+widemode="on"
+
 # page title
 st.set_page_config(
     page_title="Prediksi Stunting Bayi Sampai Umur 60 Bulan")
