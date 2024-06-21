@@ -67,7 +67,7 @@ if sumbit == True:
                                  
                                  Sumber: Kementerian Kesehatan Republik Indonesia
                                  """)
-                  elif prediksi [-1] == 1:
+                  elif prediksi [-1] == 1
                       time.sleep(1)
                       st.warning("Hasil Prediksi: "+nama+" Terkena Stunting")
                       st.write("""
