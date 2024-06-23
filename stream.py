@@ -83,8 +83,8 @@ if sumbit == True:
                         time.sleep (1)
                         st.success("Hasil Prediksi: "+nama+" Normal")
                         st.write("""
-                                 Upaya yang bisa dilakukan untuk mempertahankan giz bayi dan mencegah terjadinya stunting seperti: 
-                                 1) Pemenuhan gizi ibu hamil terutama pemenuhan zat besi.
+                                 Upaya yang bisa dilakukan untuk mempertahankan kondisi gizi bayi dan mencegah terjadinya stunting seperti: 
+                                 1) Pemenuhan gizi ibu hamil terutama zat besi.
                                  2) Memberikan ASI eksklusif sampai 6 bulan dan setelah 6 bulan diberikan makanan pendamping ASI yang bernutrisi juga bergizi.
                                  3) Mendapatkan akses air bersih dan fasilitas sanitasi, serta menjaga lingkungan tetap bersih.
                                  4) Memantau pertumbuhan bayi dan melakukan imunisasi rutin sesuai jadwal.
@@ -95,8 +95,8 @@ if sumbit == True:
                         time.sleep (1)
                         st.success("Hasil Prediksi: "+nama+" Tinggi")
                         st.write("""
-                                 Upaya yang bisa dilakukan untuk mempertahankan gizi bayi dan mencegah terjadinya stunting seperti: 
-                                 1) Pemenuhan gizi ibu hamil terutama pemenuhan zat besi.
+                                 Upaya yang bisa dilakukan untuk mempertahankan kondisi gizi bayi dan mencegah terjadinya stunting seperti: 
+                                 1) Pemenuhan gizi ibu hamil terutama zat besi.
                                  2) Memberikan ASI eksklusif sampai 6 bulan dan setelah 6 bulan diberikan makanan pendamping ASI yang bernutrisi juga bergizi.
                                  3) Mendapatkan akses air bersih dan fasilitas sanitasi, serta menjaga lingkungan tetap bersih.
                                  4) Memantau pertumbuhan bayi dan melakukan imunisasi rutin sesuai jadwal.
