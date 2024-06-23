@@ -6,7 +6,7 @@ import time
 
 # page title
 st.set_page_config(
-    page_title="Prediksi Stunting Bayi Sampai Umur 60 Bulan")
+    page_title="Prediksi Risiko Stunting Bayi Sampai Umur 60 Bulan")
 
 hide_style = """
 <style>
@@ -18,7 +18,7 @@ header {visibility: hidden;}
 st.markdown(hide_style, unsafe_allow_html=True) 
 
 # Title
-st.markdown("<h1 style='text-align: center;'>Prediksi Stunting Bayi Sampai Umur 60 Bulan</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Prediksi Risiko Stunting Bayi Sampai Umur 60 Bulan</h1>", unsafe_allow_html=True)
 
 #Elemen
 nama = st.text_input("Masukkan Nama",placeholder='Nama')
@@ -57,9 +57,9 @@ if sumbit == True:
             with st.spinner("Tunggu Sebentar..."):
                   if prediksi[-1] == 0:
                         time.sleep(1)
-                        st.warning("Hasil Prediksi: "+nama+" Terkena Stunting Parah")
+                        st.warning("Hasil Prediksi: "+nama+" Sangat Pendek (Severely Stunted)")
                         st.write("""
-                                 Upaya yang bisa dilakukan untuk mengatasi stunting parah seperti: 
+                                 Upaya yang bisa dilakukan untuk meningkatkan kondisi gizi seperti: 
                                  1) Mulai berikan asupan makanan yang bernutrisi dan bergizi, seperti protein hewani pada mpasi.
                                  2) Memberikan suplemen tambahan terutama yang mengandung vitamin A, Zinc, zat besi, kalsium dan yodium.
                                  3) Menerapkan pola hidup bersih dengan menjaga sanitasi dan kebersihan lingkungan tempat tinggal.
@@ -69,9 +69,9 @@ if sumbit == True:
                                  """)
                   elif prediksi [-1] == 1:
                         time.sleep(1)
-                        st.warning("Hasil Prediksi: "+nama+" Terkena Stunting")
+                        st.warning("Hasil Prediksi: "+nama+" Pendek (Stunted)")
                         st.write("""
-                                 Upaya yang bisa dilakukan untuk mengatasi stunting seperti: 
+                                 Upaya yang bisa dilakukan untuk meningkatkan kondisi gizi seperti: 
                                  1) Mulai berikan asupan makanan yang bernutrisi dan bergizi, seperti protein hewani pada mpasi.
                                  2) Memberikan suplemen tambahan terutama yang mengandung vitamin A, Zinc, zat besi, kalsium dan yodium.
                                  3) Menerapkan pola hidup bersih dengan menjaga sanitasi dan kebersihan lingkungan tempat tinggal.
@@ -83,7 +83,7 @@ if sumbit == True:
                         time.sleep (1)
                         st.success("Hasil Prediksi: "+nama+" Normal")
                         st.write("""
-                                 Upaya yang bisa dilakukan untuk mempertahankan kondisi gizi bayi dan mencegah terjadinya stunting seperti: 
+                                 Upaya yang bisa dilakukan untuk mempertahankan kondisi gizi seperti: 
                                  1) Pemenuhan gizi ibu hamil terutama zat besi.
                                  2) Memberikan ASI eksklusif sampai 6 bulan dan setelah 6 bulan diberikan makanan pendamping ASI yang bernutrisi juga bergizi.
                                  3) Mendapatkan akses air bersih dan fasilitas sanitasi, serta menjaga lingkungan tetap bersih.
@@ -95,7 +95,7 @@ if sumbit == True:
                         time.sleep (1)
                         st.success("Hasil Prediksi: "+nama+" Tinggi")
                         st.write("""
-                                 Upaya yang bisa dilakukan untuk mempertahankan kondisi gizi bayi dan mencegah terjadinya stunting seperti: 
+                                 Upaya yang bisa dilakukan untuk mempertahankan kondisi gizi seperti: 
                                  1) Pemenuhan gizi ibu hamil terutama zat besi.
                                  2) Memberikan ASI eksklusif sampai 6 bulan dan setelah 6 bulan diberikan makanan pendamping ASI yang bernutrisi juga bergizi.
                                  3) Mendapatkan akses air bersih dan fasilitas sanitasi, serta menjaga lingkungan tetap bersih.
