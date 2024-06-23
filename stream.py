@@ -57,7 +57,7 @@ if sumbit == True:
             with st.spinner("Tunggu Sebentar..."):
                   if prediksi[-1] == 0:
                         time.sleep(1)
-                        st.warning("Hasil Prediksi: "+nama+" Sangat Pendek / Severely Stunted (Ada kemungkinan terkena Stunting)")
+                        st.warning("Hasil Prediksi: "+nama+" Sangat Pendek / Severely Stunted (Ada Kemungkinan Terkena Stunting)")
                         st.write("""
                                  Upaya yang bisa dilakukan untuk meningkatkan kondisi gizi seperti: 
                                  1) Mulai berikan asupan makanan yang bernutrisi dan bergizi, seperti protein hewani pada mpasi.
@@ -69,7 +69,7 @@ if sumbit == True:
                                  """)
                   elif prediksi [-1] == 1:
                         time.sleep(1)
-                        st.warning("Hasil Prediksi: "+nama+" Pendek / Stunted (Ada kemungkinan terkena Stunting)")
+                        st.warning("Hasil Prediksi: "+nama+" Pendek / Stunted (Ada Kemungkinan Terkena Stunting)")
                         st.write("""
                                  Upaya yang bisa dilakukan untuk meningkatkan kondisi gizi seperti: 
                                  1) Mulai berikan asupan makanan yang bernutrisi dan bergizi, seperti protein hewani pada mpasi.
@@ -81,7 +81,7 @@ if sumbit == True:
                                  """)
                   elif prediksi [-1] == 2:
                         time.sleep (1)
-                        st.success("Hasil Prediksi: "+nama+" Normal (Tidak terkena Stunting)")
+                        st.success("Hasil Prediksi: "+nama+" Normal (Tidak Terkena Stunting)")
                         st.write("""
                                  Upaya yang bisa dilakukan untuk mempertahankan kondisi gizi dan mencegah kondisi stunting seperti: 
                                  1) Pemenuhan gizi ibu saat hamil terutama zat besi.
@@ -93,7 +93,7 @@ if sumbit == True:
                                  """)
                   elif prediksi [-1] == 3:
                         time.sleep (1)
-                        st.success("Hasil Prediksi: "+nama+" Tinggi (Tidak terkena Stunting)")
+                        st.success("Hasil Prediksi: "+nama+" Tinggi (Tidak Terkena Stunting)")
                         st.write("""
                                  Upaya yang bisa dilakukan untuk mempertahankan kondisi gizi dan mencegah kondisi stunting seperti: 
                                  1) Pemenuhan gizi ibu saat hamil terutama zat besi.
