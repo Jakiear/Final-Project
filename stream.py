@@ -24,7 +24,7 @@ st.markdown("<h1 style='text-align: center;'>Prediksi Kemungkinan Stunting Bayi 
 nama = st.text_input("Masukkan Nama",placeholder='Nama')
 umur = st.number_input("Masukkan Umur (bulan)", min_value = 0, max_value=60)
 jk = st.selectbox("Jenis Kelamin",('Laki-laki','Perempuan'))
-tb = st.text_input("Masukkan Tinggi Badan (cm)")
+tb = st.text_input("Masukkan Tinggi Badan(cm) (contoh: 50.5")
 
 # preprocessing
 def normalisasi(x):
