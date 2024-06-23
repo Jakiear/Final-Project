@@ -55,7 +55,7 @@ if sumbit == True:
             prediksi = knn(data)
             # cek prediksi
             with st.spinner("Tunggu Sebentar..."):
-                  if prediksi == 0:
+                  if prediksi [-1] == 0:
                         time.sleep(1)
                         st.warning("Hasil Prediksi: "+nama+" Sangat Pendek / Severely Stunted (Ada Kemungkinan Terkena Stunting)")
                         st.write("""
@@ -67,7 +67,7 @@ if sumbit == True:
                                  
                                  Sumber: Kementerian Kesehatan Republik Indonesia
                                  """)
-                  elif prediksi == 1:
+                  elif prediksi [-1] == 1:
                         time.sleep(1)
                         st.warning("Hasil Prediksi: "+nama+" Pendek / Stunted (Ada Kemungkinan Terkena Stunting)")
                         st.write("""
@@ -79,7 +79,7 @@ if sumbit == True:
                                  
                                  Sumber: Kementerian Kesehatan Republik Indonesia
                                  """)
-                  elif prediksi == 2:
+                  elif prediksi [-1] == 2:
                         time.sleep (1)
                         st.success("Hasil Prediksi: "+nama+" Normal (Tidak Terkena Stunting)")
                         st.write("""
@@ -91,7 +91,7 @@ if sumbit == True:
                                  
                                  Sumber: Kementerian Kesehatan Republik Indonesia
                                  """)
-                  elif prediksi == 3:
+                  elif prediksi [-1] == 3:
                         time.sleep (1)
                         st.success("Hasil Prediksi: "+nama+" Tinggi (Tidak Terkena Stunting)")
                         st.write("""
